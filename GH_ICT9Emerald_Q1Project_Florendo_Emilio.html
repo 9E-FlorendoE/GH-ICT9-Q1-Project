@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q1 Project</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body {
+font-family: 'Poppins', sans-serif;
+background-color: #121212;
+color: #e0e0e0;
+scroll-behavior: smooth;
+margin: 0;
+padding: 0;
+}
+.purple-gradient-bg {
+background: linear-gradient(135deg, #7b4397 0%, #dc2430 100%);
+background-color: #7b4397;
+}
+.section-banner {
+background: linear-gradient(90deg, #7b4397 0%, #a259ff 50%, #7b4397 100%);
+}
+</style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+<header class="purple-gradient-bg text-white px-6 py-4 flex items-center justify-between shadow-md sticky top-0 z-50">
+<div class="flex items-center space-x-3">
+<div class="w-12 h-12 rounded-full bg-amber-100/20 border-2 border-amber-300 flex items-center justify-center shadow-inner">
+<svg class="w-8 h-8 text-amber-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
+<path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2"/>
+</svg>
+</div>
+<span class="font-bold text-lg tracking-wider text-amber-100 drop-shadow">ICT Portfolio</span>
+</div>
+<nav class="flex space-x-6 text-sm md:text-base font-semibold">
+<a href="#about" class="hover:text-amber-200 transition-colors">About Me</a>
+<a href="#works" class="hover:text-amber-200 transition-colors">My Works</a>
+<a href="#contact" class="hover:text-amber-200 transition-colors">Contact Me</a>
+</nav>
+</header>
+<main class="flex-grow">
+<section class="w-full bg-[#1e1e2f] py-16 px-4 text-center shadow-inner border-b border-slate-800">
+<div class="max-w-3xl mx-auto flex flex-col items-center">
+<div class="w-28 h-28 md:w-32 md:h-32 rounded-full bg-slate-700 border-4 border-slate-600 shadow-lg overflow-hidden mb-6 flex items-center justify-center">
+<img src="https://i.postimg.cc/bJQNrgBz/Screen-Shot-2026-09-29-at-8-17-37-AM.png" alt="Emilio Gabriel Florendo Avatar" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/150x150/1e1e2f/fff?text=Milo'">
+</div>
+<h1 class="text-3xl md:text-4xl font-bold text-white mb-2">
+Hello, I'm <span class="text-[#38bdf8]">Emilio Gabriel Florendo</span>
+</h1>
+<p class="text-slate-400 text-lg italic font-medium">Aspiring Web Developer</p>
+</div>
+</section>
+<section id="about" class="max-w-5xl mx-auto px-6 py-12">
+<div class="section-banner text-white text-center py-3 rounded-xl shadow-md mb-8">
+<h2 class="text-2xl md:text-3xl font-bold tracking-wide">About Me</h2>
+</div>
+<div class="bg-[#1a1a24] border border-slate-800 rounded-2xl p-6 md:p-8 shadow-sm text-center max-w-3xl mx-auto">
+<p class="text-slate-300 text-base md:text-lg leading-relaxed">
+I am Emilio Florendo but as my friends call me Milo! I like playing games, sports, and I listening to music!
+</p>
+</div>
+</section>
+<section id="works" class="max-w-6xl mx-auto px-6 py-12">
+<div class="section-banner text-white text-center py-3 rounded-xl shadow-md mb-12">
+<h2 class="text-2xl md:text-3xl font-bold tracking-wide">My Works</h2>
+</div>
+<div class="mb-16">
+<div class="bg-[#1a1a24] border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl mb-6">
+<h3 class="text-xl md:text-2xl font-bold text-white text-center mb-8 tracking-wider bg-slate-900 py-3 rounded-xl border border-slate-800">My Top Artists</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-[#121212] border border-slate-800 rounded-xl p-5 flex flex-col justify-between shadow-lg">
+<div>
+<div class="w-full h-48 bg-slate-800 rounded-lg overflow-hidden mb-4 border border-slate-700 flex items-center justify-center">
+<img src="https://i.postimg.cc/rFpM2qMN/Screen-Shot-2026-09-29-at-8-20-36-AM.png" alt="Duran Duran" class="w-full h-full object-cover">
+</div>
+<h4 class="text-lg font-bold text-white text-center mb-3 tracking-wide">DURAN DURAN</h4>
+<p class="text-slate-400 text-xs md:text-sm leading-relaxed">
+Duran Duran is an English pop band formed in Birmingham in 1978. One of their famous songs called "Invisible" which got popularity from a game called Metal Gear Solid. The song itself is talking about a girl he likes stop talking to him and start ignoring his texts and when he talks to her, it's almost like he was "Invisible".
+</p>
+</div>
+</div>
+<div class="bg-[#121212] border border-slate-800 rounded-xl p-5 flex flex-col justify-between shadow-lg">
+<div>
+<div class="w-full h-48 bg-slate-800 rounded-lg overflow-hidden mb-4 border border-slate-700 flex items-center justify-center">
+<img src="https://i.postimg.cc/MpMwXtcz/Screen-Shot-2026-09-08-at-7-39-45-AM.png" alt="Eminem" class="w-full h-full object-cover">
+</div>
+<h4 class="text-lg font-bold text-white text-center mb-3 tracking-wide">EMINEM</h4>
+<p class="text-slate-400 text-xs md:text-sm leading-relaxed">
+Eminem or Marshall Mathers III is a great artist with great raps and some of them I can focus with the stuff I need to do. They are the perfect songs for me to focus on the work I need to do even if I don't wanna, like doing an essay or making a video about someone. Eminem is a great and literally in the top 10 best rap artists in the world and is the best in my opinion.
+</p>
+</div>
+</div>
+<div class="bg-[#121212] border border-slate-800 rounded-xl p-5 flex flex-col justify-between shadow-lg">
+<div>
+<div class="w-full h-48 bg-slate-800 rounded-lg overflow-hidden mb-4 border border-slate-700 flex items-center justify-center">
+<img src="https://i.postimg.cc/Px4s0R74/Screen-Shot-2026-09-29-at-8-22-50-AM.png" alt="That Handsome Devil" class="w-full h-full object-cover">
+</div>
+<h4 class="text-lg font-bold text-white text-center mb-3 tracking-wide">THAT HANDSOME DEVIL</h4>
+<p class="text-slate-400 text-xs md:text-sm leading-relaxed">
+That Handsome Devil is a rock band formed in America, New York. They made countless songs and maybe you heard of one called "Charlie's Inferno" which talks about someone names Charlie who went to hell for doing good doings just for him to go to heaven. The picture for the Album Is the heart goes up but the brain goes down.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="bg-[#1a1a24] border border-slate-800 rounded-2xl p-6 md:p-10 shadow-xl max-w-3xl mx-auto">
+<p class="text-slate-300 text-center mb-6 text-sm font-medium">Share your review of the movie 8 Mile featuring Eminem.</p>
+<div class="flex justify-center mb-6">
+<div class="w-32 h-32 rounded-full border-4 border-red-600 overflow-hidden shadow-lg bg-slate-900 flex items-center justify-center">
+<img src="https://i.postimg.cc/mkpxgFBc/Screen-Shot-2026-09-29-at-8-23-45-AM.png" alt="8 Mile" class="w-full h-full object-cover">
+</div>
+</div>
+<div class="space-y-5">
+<div>
+<input type="text" value="8 Mile (2002)" readonly class="w-full bg-[#121212] border border-slate-700 rounded-lg px-4 py-3 text-slate-200 text-sm font-semibold focus:outline-none">
+</div>
+<div>
+<label class="block font-bold text-white mb-2 text-sm">Genres:</label>
+<div class="flex flex-wrap gap-6 text-slate-300 text-sm">
+<label class="flex items-center space-x-2">
+<input type="checkbox" checked disabled class="accent-red-600">
+<span>Drama</span>
+</label>
+<label class="flex items-center space-x-2">
+<input type="checkbox" checked disabled class="accent-red-600">
+<span>Music</span>
+</label>
+<label class="flex items-center space-x-2">
+<input type="checkbox" disabled class="accent-red-600">
+<span>Action</span>
+</label>
+</div>
+</div>
+<div>
+<label class="block font-bold text-white mb-2 text-sm">Rating:</label>
+<div class="flex flex-wrap items-center gap-4 text-amber-400 text-sm font-medium">
+<label class="flex items-center space-x-1"><input type="radio" name="movieRating" disabled><span>1★</span></label>
+<label class="flex items-center space-x-1"><input type="radio" name="movieRating" disabled><span>2★</span></label>
+<label class="flex items-center space-x-1"><input type="radio" name="movieRating" disabled><span>3★</span></label>
+<label class="flex items-center space-x-1"><input type="radio" name="movieRating" disabled><span>4★</span></label>
+<label class="flex items-center space-x-1"><input type="radio" name="movieRating" checked disabled><span>5★</span></label>
+</div>
+</div>
+<div>
+<label class="block font-bold text-white mb-2 text-sm">Your Review:</label>
+<textarea rows="4" readonly class="w-full bg-[#121212] border border-slate-700 rounded-lg px-4 py-3 text-slate-300 text-sm focus:outline-none resize-none">Great movie about B-Rabbit's struggles in Detroit's rap battle scene. Awesome music!</textarea>
+</div>
+<div>
+<button type="button" class="w-full bg-red-700 hover:bg-red-800 text-white font-bold py-3 px-6 rounded-lg shadow-md transition-colors cursor-pointer">
+Submit Review
+</button>
+</div>
+<div class="text-center text-xs text-slate-400 mt-4">
+Need info? Visit IMDb <a href="https://www.imdb.com" target="_blank" class="text-red-400 underline hover:text-red-300">here</a>.
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="contact" class="max-w-4xl mx-auto px-6 py-12">
+<div class="section-banner text-white text-center py-3 rounded-xl shadow-md mb-8">
+<h2 class="text-2xl md:text-3xl font-bold tracking-wide">Contact Me</h2>
+</div>
+<div class="bg-[#1a1a24] border border-slate-800 rounded-2xl shadow-xl p-8 md:p-10">
+<form id="contactForm" onsubmit="handleFormSubmit(event)" class="space-y-6">
+<div>
+<label class="block font-bold text-white mb-2">Your Name:</label>
+<input type="text" id="nameInput" value="" placeholder="Enter your name..." required class="w-full bg-[#121212] border border-slate-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 text-slate-200">
+</div>
+<div>
+<label class="block font-bold text-white mb-2">Your Email:</label>
+<input type="email" id="emailInput" value="" placeholder="Enter your email..." required class="w-full bg-[#121212] border border-slate-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 text-slate-200">
+</div>
+<div>
+<label class="block font-bold text-white mb-2">How did you find me?</label>
+<div class="flex flex-wrap gap-6 text-slate-300 font-medium">
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="radio" name="findSource" value="Facebook" class="accent-purple-500">
+<span>Facebook</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="radio" name="findSource" value="Instagram" class="accent-purple-500">
+<span>Instagram</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="radio" name="findSource" value="Friends" class="accent-purple-500">
+<span>Friends</span>
+</label>
+</div>
+</div>
+<div>
+<label class="block font-bold text-white mb-2">Interested In:</label>
+<div class="flex flex-wrap gap-6 text-slate-300 font-medium">
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" name="interests" value="Web Design" class="rounded accent-purple-500">
+<span>Web Design</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" name="interests" value="Graphic Design" class="rounded accent-purple-500">
+<span>Graphic Design</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" name="interests" value="Robotics" class="rounded accent-purple-500">
+<span>Robotics</span>
+</label>
+</div>
+</div>
+<div>
+<label class="block font-bold text-white mb-2">Rate my Portfolio</label>
+<div class="flex flex-wrap items-center gap-6 text-amber-400 font-semibold bg-[#121212] border border-slate-700 rounded-lg px-4 py-3">
+<label class="flex items-center space-x-2 cursor-pointer"><input type="radio" name="portfolioRating" value="1" class="accent-purple-500"><span>1★</span></label>
+<label class="flex items-center space-x-2 cursor-pointer"><input type="radio" name="portfolioRating" value="2" class="accent-purple-500"><span>2★</span></label>
+<label class="flex items-center space-x-2 cursor-pointer"><input type="radio" name="portfolioRating" value="3" class="accent-purple-500"><span>3★</span></label>
+<label class="flex items-center space-x-2 cursor-pointer"><input type="radio" name="portfolioRating" value="4" class="accent-purple-500"><span>4★</span></label>
+<label class="flex items-center space-x-2 cursor-pointer"><input type="radio" name="portfolioRating" value="5" class="accent-purple-500"><span>5★</span></label>
+</div>
+</div>
+<div>
+<label class="block font-bold text-white mb-2">Any Feedback?</label>
+<textarea id="feedbackInput" rows="4" placeholder="feedback here..." class="w-full bg-[#121212] border border-slate-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 text-slate-200"></textarea>
+</div>
+<div>
+<button type="submit" class="w-full purple-gradient-bg text-white font-bold py-3 px-6 rounded-lg shadow-md hover:opacity-95 transition-opacity cursor-pointer">
+Submit
+</button>
+</div>
+</form>
+<div id="messageModal" class="hidden fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4">
+<div class="bg-[#1a1a24] border border-slate-800 rounded-2xl max-w-md w-full p-6 text-center shadow-2xl">
+<div class="w-12 h-12 bg-purple-900/50 text-purple-400 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">✓</div>
+<h3 class="text-xl font-bold text-white mb-2">Thank You!</h3>
+<p id="modalMessage" class="text-slate-300 mb-6 text-sm"></p>
+<button onclick="closeModal()" class="purple-gradient-bg text-white font-semibold px-6 py-2 rounded-lg shadow hover:opacity-90 cursor-pointer">Close</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="purple-gradient-bg text-white text-center py-5 mt-12 shadow-inner">
+<p class="text-sm font-medium tracking-wide">© 2026 Emilio Gabriel Florendo. All rights reserved.</p>
+</footer>
+<script>
+function handleFormSubmit(event) {
+event.preventDefault();
+const name = document.getElementById('nameInput').value || 'Visitor';
+const email = document.getElementById('emailInput').value || 'your email';
+const ratingEl = document.querySelector('input[name="portfolioRating"]:checked');
+const rating = ratingEl ? ratingEl.value + '★' : 'Not rated';
+const message = `Thank you ${name} (${email})! Your feedback and rating (${rating}) have been successfully submitted.`;
+document.getElementById('modalMessage').innerText = message;
+document.getElementById('messageModal').classList.remove('hidden');
+}
+function closeModal() {
+document.getElementById('messageModal').classList.add('hidden');
+document.getElementById('contactForm').reset();
+}
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q1 Project</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body {
+font-family: 'Poppins', sans-serif;
+background-color: #121212;
+color: #e0e0e0;
+scroll-behavior: smooth;
+margin: 0;
+padding: 0;
+}
+.purple-gradient-bg {
+background: linear-gradient(135deg, #7b4397 0%, #dc2430 100%);
+background-color: #7b4397;
+}
+.section-banner {
+background: linear-gradient(90deg, #7b4397 0%, #a259ff 50%, #7b4397 100%);
+}
+</style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+<header class="purple-gradient-bg text-white px-6 py-4 flex items-center justify-between shadow-md sticky top-0 z-50">
+<div class="flex items-center space-x-3">
+<div class="w-12 h-12 rounded-full bg-amber-100/20 border-2 border-amber-300 flex items-center justify-center shadow-inner">
+<svg class="w-8 h-8 text-amber-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
+<path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2"/>
+</svg>
+</div>
+<span class="font-bold text-lg tracking-wider text-amber-100 drop-shadow">ICT Portfolio</span>
+</div>
+<nav class="flex space-x-6 text-sm md:text-base font-semibold">
+<a href="#about" class="hover:text-amber-200 transition-colors">About Me</a>
+<a href="#works" class="hover:text-amber-200 transition-colors">My Works</a>
+<a href="#contact" class="hover:text-amber-200 transition-colors">Contact Me</a>
+</nav>
+</header>
+<main class="flex-grow">
+<section class="w-full bg-[#1e1e2f] py-16 px-4 text-center shadow-inner border-b border-slate-800">
+<div class="max-w-3xl mx-auto flex flex-col items-center">
+<div class="w-28 h-28 md:w-32 md:h-32 rounded-full bg-slate-700 border-4 border-slate-600 shadow-lg overflow-hidden mb-6 flex items-center justify-center">
+<img src="https://i.postimg.cc/bJQNrgBz/Screen-Shot-2026-09-29-at-8-17-37-AM.png" alt="Emilio Gabriel Florendo Avatar" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/150x150/1e1e2f/fff?text=Milo'">
+</div>
+<h1 class="text-3xl md:text-4xl font-bold text-white mb-2">
+Hello, I'm <span class="text-[#38bdf8]">Emilio Gabriel Florendo</span>
+</h1>
+<p class="text-slate-400 text-lg italic font-medium">Aspiring Web Developer</p>
+</div>
+</section>
+<section id="about" class="max-w-5xl mx-auto px-6 py-12">
+<div class="section-banner text-white text-center py-3 rounded-xl shadow-md mb-8">
+<h2 class="text-2xl md:text-3xl font-bold tracking-wide">About Me</h2>
+</div>
+<div class="bg-[#1a1a24] border border-slate-800 rounded-2xl p-6 md:p-8 shadow-sm text-center max-w-3xl mx-auto">
+<p class="text-slate-300 text-base md:text-lg leading-relaxed">
+I am Emilio Florendo but as my friends call me Milo! I like playing games, sports, and I listening to music!
+</p>
+</div>
+</section>
+<section id="works" class="max-w-6xl mx-auto px-6 py-12">
+<div class="section-banner text-white text-center py-3 rounded-xl shadow-md mb-12">
+<h2 class="text-2xl md:text-3xl font-bold tracking-wide">My Works</h2>
+</div>
+<div class="mb-16">
+<div class="bg-[#1a1a24] border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl mb-6">
+<h3 class="text-xl md:text-2xl font-bold text-white text-center mb-8 tracking-wider bg-slate-900 py-3 rounded-xl border border-slate-800">My Top Artists</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-[#121212] border border-slate-800 rounded-xl p-5 flex flex-col justify-between shadow-lg">
+<div>
+<div class="w-full h-48 bg-slate-800 rounded-lg overflow-hidden mb-4 border border-slate-700 flex items-center justify-center">
+<img src="https://i.postimg.cc/rFpM2qMN/Screen-Shot-2026-09-29-at-8-20-36-AM.png" alt="Duran Duran" class="w-full h-full object-cover">
+</div>
+<h4 class="text-lg font-bold text-white text-center mb-3 tracking-wide">DURAN DURAN</h4>
+<p class="text-slate-400 text-xs md:text-sm leading-relaxed">
+Duran Duran is an English pop band formed in Birmingham in 1978. One of their famous songs called "Invisible" which got popularity from a game called Metal Gear Solid. The song itself is talking about a girl he likes stop talking to him and start ignoring his texts and when he talks to her, it's almost like he was "Invisible".
+</p>
+</div>
+</div>
+<div class="bg-[#121212] border border-slate-800 rounded-xl p-5 flex flex-col justify-between shadow-lg">
+<div>
+<div class="w-full h-48 bg-slate-800 rounded-lg overflow-hidden mb-4 border border-slate-700 flex items-center justify-center">
+<img src="https://i.postimg.cc/MpMwXtcz/Screen-Shot-2026-09-08-at-7-39-45-AM.png" alt="Eminem" class="w-full h-full object-cover">
+</div>
+<h4 class="text-lg font-bold text-white text-center mb-3 tracking-wide">EMINEM</h4>
+<p class="text-slate-400 text-xs md:text-sm leading-relaxed">
+Eminem or Marshall Mathers III is a great artist with great raps and some of them I can focus with the stuff I need to do. They are the perfect songs for me to focus on the work I need to do even if I don't wanna, like doing an essay or making a video about someone. Eminem is a great and literally in the top 10 best rap artists in the world and is the best in my opinion.
+</p>
+</div>
+</div>
+<div class="bg-[#121212] border border-slate-800 rounded-xl p-5 flex flex-col justify-between shadow-lg">
+<div>
+<div class="w-full h-48 bg-slate-800 rounded-lg overflow-hidden mb-4 border border-slate-700 flex items-center justify-center">
+<img src="https://i.postimg.cc/Px4s0R74/Screen-Shot-2026-09-29-at-8-22-50-AM.png" alt="That Handsome Devil" class="w-full h-full object-cover">
+</div>
+<h4 class="text-lg font-bold text-white text-center mb-3 tracking-wide">THAT HANDSOME DEVIL</h4>
+<p class="text-slate-400 text-xs md:text-sm leading-relaxed">
+That Handsome Devil is a rock band formed in America, New York. They made countless songs and maybe you heard of one called "Charlie's Inferno" which talks about someone names Charlie who went to hell for doing good doings just for him to go to heaven. The picture for the Album Is the heart goes up but the brain goes down.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="bg-[#1a1a24] border border-slate-800 rounded-2xl p-6 md:p-10 shadow-xl max-w-3xl mx-auto">
+<p class="text-slate-300 text-center mb-6 text-sm font-medium">Share your review of the movie 8 Mile featuring Eminem.</p>
+<div class="flex justify-center mb-6">
+<div class="w-32 h-32 rounded-full border-4 border-red-600 overflow-hidden shadow-lg bg-slate-900 flex items-center justify-center">
+<img src="https://i.postimg.cc/mkpxgFBc/Screen-Shot-2026-09-29-at-8-23-45-AM.png" alt="8 Mile" class="w-full h-full object-cover">
+</div>
+</div>
+<div class="space-y-5">
+<div>
+<input type="text" value="8 Mile (2002)" readonly class="w-full bg-[#121212] border border-slate-700 rounded-lg px-4 py-3 text-slate-200 text-sm font-semibold focus:outline-none">
+</div>
+<div>
+<label class="block font-bold text-white mb-2 text-sm">Genres:</label>
+<div class="flex flex-wrap gap-6 text-slate-300 text-sm">
+<label class="flex items-center space-x-2">
+<input type="checkbox" checked disabled class="accent-red-600">
+<span>Drama</span>
+</label>
+<label class="flex items-center space-x-2">
+<input type="checkbox" checked disabled class="accent-red-600">
+<span>Music</span>
+</label>
+<label class="flex items-center space-x-2">
+<input type="checkbox" disabled class="accent-red-600">
+<span>Action</span>
+</label>
+</div>
+</div>
+<div>
+<label class="block font-bold text-white mb-2 text-sm">Rating:</label>
+<div class="flex flex-wrap items-center gap-4 text-amber-400 text-sm font-medium">
+<label class="flex items-center space-x-1"><input type="radio" name="movieRating" disabled><span>1★</span></label>
+<label class="flex items-center space-x-1"><input type="radio" name="movieRating" disabled><span>2★</span></label>
+<label class="flex items-center space-x-1"><input type="radio" name="movieRating" disabled><span>3★</span></label>
+<label class="flex items-center space-x-1"><input type="radio" name="movieRating" disabled><span>4★</span></label>
+<label class="flex items-center space-x-1"><input type="radio" name="movieRating" checked disabled><span>5★</span></label>
+</div>
+</div>
+<div>
+<label class="block font-bold text-white mb-2 text-sm">Your Review:</label>
+<textarea rows="4" readonly class="w-full bg-[#121212] border border-slate-700 rounded-lg px-4 py-3 text-slate-300 text-sm focus:outline-none resize-none">Great movie about B-Rabbit's struggles in Detroit's rap battle scene. Awesome music!</textarea>
+</div>
+<div>
+<button type="button" class="w-full bg-red-700 hover:bg-red-800 text-white font-bold py-3 px-6 rounded-lg shadow-md transition-colors cursor-pointer">
+Submit Review
+</button>
+</div>
+<div class="text-center text-xs text-slate-400 mt-4">
+Need info? Visit IMDb <a href="https://www.imdb.com" target="_blank" class="text-red-400 underline hover:text-red-300">here</a>.
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="contact" class="max-w-4xl mx-auto px-6 py-12">
+<div class="section-banner text-white text-center py-3 rounded-xl shadow-md mb-8">
+<h2 class="text-2xl md:text-3xl font-bold tracking-wide">Contact Me</h2>
+</div>
+<div class="bg-[#1a1a24] border border-slate-800 rounded-2xl shadow-xl p-8 md:p-10">
+<form id="contactForm" onsubmit="handleFormSubmit(event)" class="space-y-6">
+<div>
+<label class="block font-bold text-white mb-2">Your Name:</label>
+<input type="text" id="nameInput" value="" placeholder="Enter your name..." required class="w-full bg-[#121212] border border-slate-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 text-slate-200">
+</div>
+<div>
+<label class="block font-bold text-white mb-2">Your Email:</label>
+<input type="email" id="emailInput" value="" placeholder="Enter your email..." required class="w-full bg-[#121212] border border-slate-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 text-slate-200">
+</div>
+<div>
+<label class="block font-bold text-white mb-2">How did you find me?</label>
+<div class="flex flex-wrap gap-6 text-slate-300 font-medium">
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="radio" name="findSource" value="Facebook" class="accent-purple-500">
+<span>Facebook</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="radio" name="findSource" value="Instagram" class="accent-purple-500">
+<span>Instagram</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="radio" name="findSource" value="Friends" class="accent-purple-500">
+<span>Friends</span>
+</label>
+</div>
+</div>
+<div>
+<label class="block font-bold text-white mb-2">Interested In:</label>
+<div class="flex flex-wrap gap-6 text-slate-300 font-medium">
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" name="interests" value="Web Design" class="rounded accent-purple-500">
+<span>Web Design</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" name="interests" value="Graphic Design" class="rounded accent-purple-500">
+<span>Graphic Design</span>
+</label>
+<label class="flex items-center space-x-2 cursor-pointer">
+<input type="checkbox" name="interests" value="Robotics" class="rounded accent-purple-500">
+<span>Robotics</span>
+</label>
+</div>
+</div>
+<div>
+<label class="block font-bold text-white mb-2">Rate my Portfolio</label>
+<div class="flex flex-wrap items-center gap-6 text-amber-400 font-semibold bg-[#121212] border border-slate-700 rounded-lg px-4 py-3">
+<label class="flex items-center space-x-2 cursor-pointer"><input type="radio" name="portfolioRating" value="1" class="accent-purple-500"><span>1★</span></label>
+<label class="flex items-center space-x-2 cursor-pointer"><input type="radio" name="portfolioRating" value="2" class="accent-purple-500"><span>2★</span></label>
+<label class="flex items-center space-x-2 cursor-pointer"><input type="radio" name="portfolioRating" value="3" class="accent-purple-500"><span>3★</span></label>
+<label class="flex items-center space-x-2 cursor-pointer"><input type="radio" name="portfolioRating" value="4" class="accent-purple-500"><span>4★</span></label>
+<label class="flex items-center space-x-2 cursor-pointer"><input type="radio" name="portfolioRating" value="5" class="accent-purple-500"><span>5★</span></label>
+</div>
+</div>
+<div>
+<label class="block font-bold text-white mb-2">Any Feedback?</label>
+<textarea id="feedbackInput" rows="4" placeholder="feedback here..." class="w-full bg-[#121212] border border-slate-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 text-slate-200"></textarea>
+</div>
+<div>
+<button type="submit" class="w-full purple-gradient-bg text-white font-bold py-3 px-6 rounded-lg shadow-md hover:opacity-95 transition-opacity cursor-pointer">
+Submit
+</button>
+</div>
+</form>
+<div id="messageModal" class="hidden fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4">
+<div class="bg-[#1a1a24] border border-slate-800 rounded-2xl max-w-md w-full p-6 text-center shadow-2xl">
+<div class="w-12 h-12 bg-purple-900/50 text-purple-400 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">✓</div>
+<h3 class="text-xl font-bold text-white mb-2">Thank You!</h3>
+<p id="modalMessage" class="text-slate-300 mb-6 text-sm"></p>
+<button onclick="closeModal()" class="purple-gradient-bg text-white font-semibold px-6 py-2 rounded-lg shadow hover:opacity-90 cursor-pointer">Close</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="purple-gradient-bg text-white text-center py-5 mt-12 shadow-inner">
+<p class="text-sm font-medium tracking-wide">© 2026 Emilio Gabriel Florendo. All rights reserved.</p>
+</footer>
+<script>
+function handleFormSubmit(event) {
+event.preventDefault();
+const name = document.getElementById('nameInput').value || 'Visitor';
+const email = document.getElementById('emailInput').value || 'your email';
+const ratingEl = document.querySelector('input[name="portfolioRating"]:checked');
+const rating = ratingEl ? ratingEl.value + '★' : 'Not rated';
+const message = `Thank you ${name} (${email})! Your feedback and rating (${rating}) have been successfully submitted.`;
+document.getElementById('modalMessage').innerText = message;
+document.getElementById('messageModal').classList.remove('hidden');
+}
+function closeModal() {
+document.getElementById('messageModal').classList.add('hidden');
+document.getElementById('contactForm').reset();
+}
+</script>
+</body>
+</html>
